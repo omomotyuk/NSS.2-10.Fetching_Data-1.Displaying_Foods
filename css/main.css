@@ -1,0 +1,15 @@
+
+.food-list {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.food-list > div {
+    width: 20%;
+    margin: .3em;
+    padding: .3em;
+    border: 1px solid black;
+    border-radius: .5em;
+}
